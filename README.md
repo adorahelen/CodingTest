@@ -10,9 +10,9 @@ for Ai developer in boostcourse
     * git clone https://github.com/yourid/yourreopsitory.git
     * 깃허브, Develope Setting > Personal accesss tokens (classic) 발급
     * git status
-    * git add .
     * git config --global user.name "Yourname" 등록
     * git config --global user.email "YourEmail" 등록
     * git config --global credential.helper store 등록
-    * git commit -m "Your Message"
-    * git push || git pull
+    * git add . (변경내용을 추가 for commit)
+    * git commit -m "Your Message" (커밋)
+    * git push || git pull (푸쉬 또는 풀)
