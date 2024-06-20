@@ -16,3 +16,6 @@ for Ai developer in boostcourse
     * git add . (변경내용을 추가 for commit)
     * git commit -m "Your Message" (커밋)
     * git push || git pull (푸쉬 또는 풀)
+6. 굳이 conda activate base를 실행하는 이유
+   * CMD에서 Python 실행: 시스템 전역의 Python과 패키지를 사용. 환경 격리가 없고, 패키지 버전 충돌 가능성.
+   * conda activate base 후 Python 실행: Conda 환경을 사용하여 환경 격리와 독립적인 패키지 관리를 제공. 패키지 버전 충돌 방지.
