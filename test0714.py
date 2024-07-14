@@ -1,17 +1,18 @@
-int(input)
+n = int(input(" :  "))
 
 
 def solution(n):
     listlist = []
-    for i in range n:
-        listlist.append(random.randint(1, n))
+    i = 0
+    while i < n:
+        i +=1
+        if i % 2 == 1 : 
+            listlist.append(i)
     
-    
+    answer = listlist    
     return answer
-defd
-defd
-defd
-defd
-defd
-defd
-def
+
+
+result = solution(n)
+
+print(result)
