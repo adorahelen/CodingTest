@@ -8,3 +8,10 @@ def solution(n):
     
     
     return answer
+defd
+defd
+defd
+defd
+defd
+defd
+def
